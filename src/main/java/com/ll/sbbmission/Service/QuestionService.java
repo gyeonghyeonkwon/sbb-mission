@@ -1,5 +1,6 @@
-package com.ll.sbbmission;
+package com.ll.sbbmission.Service;
 
+import com.ll.sbbmission.DataNotFoundException;
 import com.ll.sbbmission.Entity.Question.Question;
 import com.ll.sbbmission.Repository.QuestionRepository;
 import lombok.RequiredArgsConstructor;

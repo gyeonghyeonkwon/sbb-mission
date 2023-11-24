@@ -4,6 +4,7 @@ server:
 #database
 
 spring:
+
   h2:
     console:
       enabled: true  # H2 Console을 사용할지 여부 (H2 Console은 H2 Database를 UI로 제공해주는 기능)

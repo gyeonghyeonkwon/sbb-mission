@@ -1,15 +1,11 @@
 package com.ll.sbbmission.Controller;
 
-import com.ll.sbbmission.AnswerForm;
+import com.ll.sbbmission.Form.AnswerForm;
 import com.ll.sbbmission.Entity.Question.Question;
-import com.ll.sbbmission.QuestionForm;
+import com.ll.sbbmission.Form.QuestionForm;
 import com.ll.sbbmission.Service.QuestionService;
 import jakarta.validation.Valid;
-import jakarta.validation.constraints.NotEmpty;
-import jakarta.validation.constraints.Size;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
-import lombok.Setter;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;

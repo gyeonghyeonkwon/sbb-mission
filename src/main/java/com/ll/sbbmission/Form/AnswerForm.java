@@ -1,4 +1,4 @@
-package com.ll.sbbmission;
+package com.ll.sbbmission.Form;
 
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Size;

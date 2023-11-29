@@ -82,4 +82,14 @@
             document.getElementById('page').value = 0;  // 검색버튼을 클릭할 경우 0페이지부터 조회한다.
             document.getElementById('searchForm').submit();
         });
+
+        //검색 엔터키 구현
+        const search_kw = document.getElementById('search_kw');
+        search_kw.addEventListener('keyup', function(event) {
+            if (event.key === 'Enter') {
+                document.getElementById('kw').value = this.value;
+                document.getElementById('page').value = 0;
+                document.getElementById('searchForm').submit();
+            }
+        });
     </script>
